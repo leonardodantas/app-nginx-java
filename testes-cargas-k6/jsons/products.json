@@ -1,0 +1,710 @@
+[
+    {
+        "name": "Camiseta",
+        "value": 25.99,
+        "description": "Camiseta branca básica",
+        "categories": [
+            "Roupa",
+            "Básico"
+        ]
+    },
+    {
+        "name": "Tênis esportivo",
+        "value": 99.99,
+        "description": "Tênis para corrida e treinos",
+        "categories": [
+            "Calçado",
+            "Esportivo",
+            "Corrida"
+        ]
+    },
+    {
+        "name": "Celular",
+        "value": 899.99,
+        "description": "Smartphone com câmera de alta resolução",
+        "categories": [
+            "Eletrônico",
+            "Smartphone"
+        ]
+    },
+    {
+        "name": "Notebook",
+        "value": 1299.99,
+        "description": "Notebook leve e potente, ideal para trabalho e entretenimento.",
+        "categories": [
+            "Eletrônico",
+            "Informática"
+        ]
+    },
+    {
+        "name": "Livro",
+        "value": 19.99,
+        "description": "Best-seller do New York Times",
+        "categories": [
+            "Livro",
+            "Best-seller"
+        ]
+    },
+    {
+        "name": "Blusa de lã",
+        "value": 39.99,
+        "description": "Blusa quente para o inverno",
+        "categories": [
+            "Roupa",
+            "Inverno"
+        ],
+        "colors": [
+            "Azul",
+            "Verde",
+            "Vermelho"
+        ]
+    },
+    {
+        "name": "Calça jeans",
+        "value": 49.99,
+        "description": "Calça jeans de corte reto",
+        "categories": [
+            "Roupa",
+            "Jeans"
+        ],
+        "sizes": [
+            "P",
+            "M",
+            "G"
+        ]
+    },
+    {
+        "name": "Caneca personalizada",
+        "value": 9.99,
+        "description": "Caneca com foto personalizada",
+        "categories": [
+            "Presente",
+            "Personalizado"
+        ]
+    },
+    {
+        "name": "Relógio de pulso",
+        "value": 499.99,
+        "description": "Relógio de pulso com pulseira de couro genuíno",
+        "categories": [
+            "Acessório",
+            "Luxo"
+        ]
+    },
+    {
+        "name": "Carrinho de brinquedo",
+        "value": 29.99,
+        "description": "Carrinho de brinquedo para crianças",
+        "categories": [
+            "Brinquedo",
+            "Infantil"
+        ]
+    },
+    {
+        "name": "Notebook",
+        "value": 1299.99,
+        "description": "Notebook leve e potente, ideal para trabalho e entretenimento.",
+        "categories": [
+            "Eletrônico",
+            "Informática"
+        ]
+    },
+    {
+        "name": "Smart TV",
+        "value": 799.99,
+        "description": "Smart TV de 55 polegadas com resolução 4K",
+        "categories": [
+            "Eletrônico",
+            "TV",
+            "Smart"
+        ]
+    },
+    {
+        "name": "Mouse sem fio",
+        "value": 29.99,
+        "description": "Mouse ergonômico sem fio com receptor USB",
+        "categories": [
+            "Eletrônico",
+            "Informática",
+            "Periférico"
+        ]
+    },
+    {
+        "name": "Óculos de sol",
+        "value": 49.99,
+        "description": "Óculos de sol polarizados com armação de metal",
+        "categories": [
+            "Moda",
+            "Acessório"
+        ]
+    },
+    {
+        "name": "Bola de futebol",
+        "value": 19.99,
+        "description": "Bola de futebol oficial da FIFA",
+        "categories": [
+            "Esporte",
+            "Futebol"
+        ]
+    },
+    {
+        "name": "Kit de maquiagem",
+        "value": 39.99,
+        "description": "Kit de maquiagem profissional com sombras e batons",
+        "categories": [
+            "Beleza",
+            "Maquiagem"
+        ]
+    },
+    {
+        "name": "Tapete felpudo",
+        "value": 79.99,
+        "description": "Tapete felpudo de alta qualidade para sala de estar",
+        "categories": [
+            "Casa",
+            "Decoração"
+        ]
+    },
+    {
+        "name": "Café gourmet",
+        "value": 9.99,
+        "description": "Café gourmet de torra média com notas frutadas",
+        "categories": [
+            "Alimento",
+            "Bebida",
+            "Café"
+        ]
+    },
+    {
+        "name": "Smartwatch",
+        "value": 199.99,
+        "description": "Smartwatch com monitor de frequência cardíaca e GPS integrado",
+        "categories": [
+            "Eletrônico",
+            "Tecnologia",
+            "Wearable"
+        ]
+    },
+    {
+        "name": "Cadeira de escritório",
+        "value": 149.99,
+        "description": "Cadeira ergonômica de escritório com apoio lombar ajustável",
+        "categories": [
+            "Casa",
+            "Móveis",
+            "Escritório"
+        ]
+    },
+    {
+        "name": "Câmera fotográfica",
+        "value": 399.99,
+        "description": "Câmera digital compacta com zoom óptico de 20x",
+        "categories": [
+            "Eletrônico",
+            "Fotografia",
+            "Lazer"
+        ]
+    },
+    {
+        "name": "Fone de ouvido Bluetooth",
+        "value": 59.99,
+        "description": "Fone de ouvido Bluetooth com cancelamento de ruído",
+        "categories": [
+            "Eletrônico",
+            "Áudio",
+            "Bluetooth"
+        ]
+    },
+    {
+        "name": "Tênis de corrida",
+        "value": 89.99,
+        "description": "Tênis de corrida leve e confortável",
+        "categories": [
+            "Esporte",
+            "Corrida"
+        ]
+    },
+    {
+        "name": "Mochila escolar",
+        "value": 29.99,
+        "description": "Mochila escolar resistente e com vários compartimentos",
+        "categories": [
+            "Moda",
+            "Acessório",
+            "Escola"
+        ]
+    },
+    {
+        "name": "Panela elétrica",
+        "value": 69.99,
+        "description": "Panela elétrica programável para cozimento lento",
+        "categories": [
+            "Casa",
+            "Cozinha",
+            "Elétrico"
+        ]
+    },
+    {
+        "name": "Relógio de parede",
+        "value": 19.99,
+        "description": "Relógio de parede decorativo com ponteiros dourados",
+        "categories": [
+            "Casa",
+            "Decoração",
+            "Relógio"
+        ]
+    },
+    {
+        "name": "Livro de ficção",
+        "value": 14.99,
+        "description": "Best-seller de ficção científica",
+        "categories": [
+            "Livro",
+            "Ficção",
+            "Best-seller"
+        ]
+    },
+    {
+        "name": "Carregador portátil",
+        "value": 24.99,
+        "description": "Carregador portátil com capacidade de 10000mAh",
+        "categories": [
+            "Eletrônico",
+            "Acessório",
+            "Portátil"
+        ]
+    },
+    {
+        "name": "Caneta esferográfica",
+        "value": 2.99,
+        "description": "Caneta esferográfica de ponta fina",
+        "categories": [
+            "Papelaria",
+            "Escrita",
+            "Caneta"
+        ]
+    },
+    {
+        "name": "Quebra-cabeça",
+        "value": 9.99,
+        "description": "Quebra-cabeça de 1000 peças",
+        "categories": [
+            "Jogos",
+            "Quebra-cabeça"
+        ]
+    },
+    {
+        "name": "Fraldas descartáveis",
+        "value": 29.99,
+        "description": "Pacote de fraldas descartáveis para bebês",
+        "categories": [
+            "Bebê",
+            "Cuidados"
+        ]
+    },
+    {
+        "name": "Notebook",
+        "value": 1299.99,
+        "description": "Notebook leve e potente, ideal para trabalho e entretenimento.",
+        "categories": [
+            "Eletrônico",
+            "Informática"
+        ]
+    },
+    {
+        "name": "Smart TV",
+        "value": 799.99,
+        "description": "Smart TV de 55 polegadas com resolução 4K",
+        "categories": [
+            "Eletrônico",
+            "TV",
+            "Smart"
+        ]
+    },
+    {
+        "name": "Mouse sem fio",
+        "value": 29.99,
+        "description": "Mouse ergonômico sem fio com receptor USB",
+        "categories": [
+            "Eletrônico",
+            "Informática",
+            "Periférico"
+        ]
+    },
+    {
+        "name": "Óculos de sol",
+        "value": 49.99,
+        "description": "Óculos de sol polarizados com armação de metal",
+        "categories": [
+            "Moda",
+            "Acessório"
+        ]
+    },
+    {
+        "name": "Bola de futebol",
+        "value": 19.99,
+        "description": "Bola de futebol oficial da FIFA",
+        "categories": [
+            "Esporte",
+            "Futebol"
+        ]
+    },
+    {
+        "name": "Kit de maquiagem",
+        "value": 39.99,
+        "description": "Kit de maquiagem profissional com sombras e batons",
+        "categories": [
+            "Beleza",
+            "Maquiagem"
+        ]
+    },
+    {
+        "name": "Tapete felpudo",
+        "value": 79.99,
+        "description": "Tapete felpudo de alta qualidade para sala de estar",
+        "categories": [
+            "Casa",
+            "Decoração"
+        ]
+    },
+    {
+        "name": "Café gourmet",
+        "value": 9.99,
+        "description": "Café gourmet de torra média com notas frutadas",
+        "categories": [
+            "Alimento",
+            "Bebida",
+            "Café"
+        ]
+    },
+    {
+        "name": "Smartwatch",
+        "value": 199.99,
+        "description": "Smartwatch com monitor de frequência cardíaca e GPS integrado",
+        "categories": [
+            "Eletrônico",
+            "Tecnologia",
+            "Wearable"
+        ]
+    },
+    {
+        "name": "Cadeira de escritório",
+        "value": 149.99,
+        "description": "Cadeira ergonômica de escritório com apoio lombar ajustável",
+        "categories": [
+            "Casa",
+            "Móveis",
+            "Escritório"
+        ]
+    },
+    {
+        "name": "Câmera fotográfica",
+        "value": 399.99,
+        "description": "Câmera digital compacta com zoom óptico de 20x",
+        "categories": [
+            "Eletrônico",
+            "Fotografia",
+            "Lazer"
+        ]
+    },
+    {
+        "name": "Fone de ouvido Bluetooth",
+        "value": 59.99,
+        "description": "Fone de ouvido Bluetooth com cancelamento de ruído",
+        "categories": [
+            "Eletrônico",
+            "Áudio",
+            "Bluetooth"
+        ]
+    },
+    {
+        "name": "Tênis de corrida",
+        "value": 89.99,
+        "description": "Tênis de corrida leve e confortável",
+        "categories": [
+            "Esporte",
+            "Corrida"
+        ]
+    },
+    {
+        "name": "Mochila escolar",
+        "value": 29.99,
+        "description": "Mochila escolar resistente e com vários compartimentos",
+        "categories": [
+            "Moda",
+            "Acessório",
+            "Escola"
+        ]
+    },
+    {
+        "name": "Panela elétrica",
+        "value": 69.99,
+        "description": "Panela elétrica programável para cozimento lento",
+        "categories": [
+            "Casa",
+            "Cozinha",
+            "Elétrico"
+        ]
+    },
+    {
+        "name": "Relógio de parede",
+        "value": 19.99,
+        "description": "Relógio de parede decorativo com ponteiros dourados",
+        "categories": [
+            "Casa",
+            "Decoração",
+            "Relógio"
+        ]
+    },
+    {
+        "name": "Livro de ficção",
+        "value": 14.99,
+        "description": "Best-seller de ficção científica",
+        "categories": [
+            "Livro",
+            "Ficção",
+            "Best-seller"
+        ]
+    },
+    {
+        "name": "Carregador portátil",
+        "value": 24.99,
+        "description": "Carregador portátil com capacidade de 10000mAh",
+        "categories": [
+            "Eletrônico",
+            "Acessório",
+            "Portátil"
+        ]
+    },
+    {
+        "name": "Caneta esferográfica",
+        "value": 2.99,
+        "description": "Caneta esferográfica de ponta fina",
+        "categories": [
+            "Papelaria",
+            "Escrita",
+            "Caneta"
+        ]
+    },
+    {
+        "name": "Quebra-cabeça",
+        "value": 9.99,
+        "description": "Quebra-cabeça de 1000 peças",
+        "categories": [
+            "Jogos",
+            "Quebra-cabeça"
+        ]
+    },
+    {
+        "name": "Fraldas descartáveis",
+        "value": 29.99,
+        "description": "Pacote de fraldas descartáveis para bebês",
+        "categories": [
+            "Bebê",
+            "Cuidados"
+        ]
+    },
+    {
+        "name": "Tênis de caminhada",
+        "value": 69.99,
+        "description": "Tênis de caminhada confortável e resistente",
+        "categories": [
+            "Esporte",
+            "Caminhada"
+        ]
+    },
+    {
+        "name": "Cadeira de praia",
+        "value": 49.99,
+        "description": "Cadeira de praia dobrável com porta-copos",
+        "categories": [
+            "Lazer",
+            "Praia"
+        ]
+    },
+    {
+        "name": "Pendrive USB",
+        "value": 14.99,
+        "description": "Pendrive USB 3.0 com capacidade de 32GB",
+        "categories": [
+            "Eletrônico",
+            "Armazenamento"
+        ]
+    },
+    {
+        "name": "Fones de ouvido com fio",
+        "value": 19.99,
+        "description": "Fones de ouvido com fio de alta qualidade",
+        "categories": [
+            "Eletrônico",
+            "Áudio"
+        ]
+    },
+    {
+        "name": "Luminária de mesa",
+        "value": 39.99,
+        "description": "Luminária de mesa ajustável com luz LED",
+        "categories": [
+            "Casa",
+            "Decoração",
+            "Iluminação"
+        ]
+    },
+    {
+        "name": "DVD player",
+        "value": 59.99,
+        "description": "DVD player com reprodução de CD e MP3",
+        "categories": [
+            "Eletrônico",
+            "Mídia",
+            "DVD"
+        ]
+    },
+    {
+        "name": "Câmera de segurança",
+        "value": 89.99,
+        "description": "Câmera de segurança Wi-Fi com visão noturna",
+        "categories": [
+            "Eletrônico",
+            "Segurança",
+            "Câmera"
+        ]
+    },
+    {
+        "name": "Chapéu de sol",
+        "value": 24.99,
+        "description": "Chapéu de sol com proteção UV",
+        "categories": [
+            "Moda",
+            "Acessório",
+            "Verão"
+        ]
+    },
+    {
+        "name": "Carrinho de bebê",
+        "value": 199.99,
+        "description": "Carrinho de bebê dobrável com assento reclinável",
+        "categories": [
+            "Bebê",
+            "Acessório"
+        ]
+    },
+    {
+        "name": "Sapato social",
+        "value": 79.99,
+        "description": "Sapato social de couro para ocasiões formais",
+        "categories": [
+            "Moda",
+            "Calçado",
+            "Social"
+        ]
+    },
+    {
+        "name": "Churrasqueira portátil",
+        "value": 49.99,
+        "description": "Churrasqueira portátil a carvão para camping",
+        "categories": [
+            "Casa",
+            "Churrasco",
+            "Portátil"
+        ]
+    },
+    {
+        "name": "Bolsa térmica",
+        "value": 29.99,
+        "description": "Bolsa térmica para transporte de alimentos",
+        "categories": [
+            "Casa",
+            "Cozinha",
+            "Térmica"
+        ]
+    },
+    {
+        "name": "Ferramenta multifuncional",
+        "value": 39.99,
+        "description": "Ferramenta multifuncional com alicates e chave de fenda",
+        "categories": [
+            "Casa",
+            "Ferramenta"
+        ]
+    },
+    {
+        "name": "Óleo essencial",
+        "value": 9.99,
+        "description": "Óleo essencial de lavanda para aromaterapia",
+        "categories": [
+            "Saúde",
+            "Bem-estar",
+            "Aromaterapia"
+        ]
+    },
+    {
+        "name": "Copo térmico",
+        "value": 14.99,
+        "description": "Copo térmico de aço inoxidável com tampa",
+        "categories": [
+            "Casa",
+            "Cozinha",
+            "Térmico"
+        ]
+    },
+    {
+        "name": "Cabo USB",
+        "value": 7.99,
+        "description": "Cabo USB tipo C de alta velocidade",
+        "categories": [
+            "Eletrônico",
+            "Acessório",
+            "Cabo"
+        ]
+    },
+    {
+        "name": "Fraldas de pano",
+        "value": 19.99,
+        "description": "Kit de fraldas de pano reutilizáveis para bebês",
+        "categories": [
+            "Bebê",
+            "Cuidados"
+        ]
+    },
+    {
+        "name": "Protetor solar",
+        "value": 12.99,
+        "description": "Protetor solar FPS 50 para peles sensíveis",
+        "categories": [
+            "Beleza",
+            "Cuidados",
+            "Proteção Solar"
+        ]
+    },
+    {
+        "name": "E-book reader",
+        "value": 119.99,
+        "description": "E-book reader com tela de alta resolução",
+        "categories": [
+            "Eletrônico",
+            "Leitura",
+            "E-book"
+        ]
+    },
+    {
+        "name": "Capa para celular",
+        "value": 9.99,
+        "description": "Capa de silicone para celular",
+        "categories": [
+            "Eletrônico",
+            "Acessório",
+            "Capa"
+        ]
+    },
+    {
+        "name": "Creme hidratante",
+        "value": 14.99,
+        "description": "Creme hidratante corporal com óleo de coco",
+        "categories": [
+            "Beleza",
+            "Cuidados",
+            "Hidratação"
+        ]
+    }
+]
