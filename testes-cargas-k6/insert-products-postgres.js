@@ -13,20 +13,13 @@ let requestsCounter = new Counter('requests_total');
 let successfulRequestsCounter = new Counter('successful_requests_total');
 let errorRate = new Rate('errors');
 let responseTimeTrend = new Trend('response_time');
+const requestsOverThreshold = new Rate('requests_over_threshold');
 
 export function handleSummary(data) {
     return {
         "insert-products-postgres.html": htmlReport(data),
     };
 }
-
-// export let options = {
-//     vus: 1,
-//     duration: '10s',
-//     thresholds: {
-//         // Adicione thresholds conforme necessário
-//     },
-// };
 
 export default function () {
     for (let i = 0; i < products.length; i++) {
@@ -39,9 +32,14 @@ export default function () {
         };
 
         let startTime = new Date().getTime();
-        let response = http.post('http://localhost:8080/v2/create/product', JSON.stringify(product), params);
+        let response = http.post('http://localhost:8081/v2/create/product', JSON.stringify(product), params);
         let endTime = new Date().getTime();
         let responseTime = endTime - startTime;
+
+        if (response.timings.duration > 180) {
+            // Incrementa a métrica de requisições com tempo de resposta maior que x
+            requestsOverThreshold.add(true);
+        }
 
         // Registre métricas
         requestsCounter.add(1); // Incrementa o contador de requisições

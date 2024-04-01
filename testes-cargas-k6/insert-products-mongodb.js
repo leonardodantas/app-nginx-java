@@ -20,14 +20,6 @@ export function handleSummary(data) {
     };
 }
 
-// export let options = {
-//     vus: 1,
-//     duration: '10s',
-//     thresholds: {
-//         // Adicione thresholds conforme necessário
-//     },
-// };
-
 export default function () {
     for (let i = 0; i < products.length; i++) {
         let product = products[i];
@@ -39,7 +31,7 @@ export default function () {
         };
 
         let startTime = new Date().getTime();
-        let response = http.post('http://localhost:8080/v1/create/product', JSON.stringify(product), params);
+        let response = http.post('http://localhost:8081/v1/create/product', JSON.stringify(product), params);
         let endTime = new Date().getTime();
         let responseTime = endTime - startTime;
 

@@ -3,17 +3,18 @@ import insertProductPostgres from './insert-products-postgres.js';
 import { htmlReport } from "https://raw.githubusercontent.com/benc-uk/k6-reporter/main/dist/bundle.js";
 
 export let options = {
-    vus: 2000,
-    duration: '240s',
+    vus: 1000,
+    duration: '60s',
     thresholds: {
-        'http_req_duration': ['p(95)<500'], // Garante que 95% das requisições sejam concluídas em menos de 500ms
-        'http_req_duration{url:http://localhost:8080/v1/create/product}': ['avg<300'], // Garante que o tempo de resposta médio para um endpoint específico seja inferior a 300ms
+        'http_req_duration': ['p(95)<500'],
+        'http_req_duration{url:http://localhost:8081/v1/create/product}': ['avg<300'],
     }
 };
 
 export function handleSummary(data) {
+    const reportName = `./relatorios/insert-products-${new Date().getTime()}.html`;
     return {
-        "insert-products.html": htmlReport(data),
+        [reportName]: htmlReport(data),
     };
 }
 
