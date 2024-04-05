@@ -12,6 +12,7 @@ import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.UUID;
 
 @Repository
@@ -55,5 +56,11 @@ public class ProductMongoDBRepository implements IProductRepository {
     @Override
     public void deleteAll() {
         productMongoRepository.deleteAll();
+    }
+
+    @Override
+    public Optional<Product> findByCodeIgnoreCase(final String code) {
+        return productMongoRepository.findByCodeIgnoreCase(code)
+                .map(productDocumentConverter::convert);
     }
 }

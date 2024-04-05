@@ -10,6 +10,7 @@ import java.util.List;
 public record ProductRequest(
         @Size(min = 7)
         String name,
+        String code,
         @Positive
         BigDecimal value,
         @Size(min = 15)

@@ -1,5 +1,7 @@
 package com.br.testes.carga.infra.http.controllers;
 
+import com.br.testes.carga.app.exceptions.ProductCodeAlreadyExist;
+import com.br.testes.carga.app.exceptions.ProductNotFoundException;
 import com.br.testes.carga.infra.http.jsons.responses.ErrorResponse;
 import com.br.testes.carga.infra.http.jsons.responses.ErrorsResponse;
 import org.springframework.context.MessageSource;
@@ -20,6 +22,16 @@ public class HandlerExceptionsController {
 
     @ExceptionHandler(Exception.class)
     public ResponseEntity<ErrorResponse> handlerException(final Exception exception) {
+        return ResponseEntity.badRequest().body(ErrorResponse.of(exception.getMessage()));
+    }
+
+    @ExceptionHandler(ProductCodeAlreadyExist.class)
+    public ResponseEntity<ErrorResponse> handlerProductCodeAlreadyExist(final ProductCodeAlreadyExist exception) {
+        return ResponseEntity.badRequest().body(ErrorResponse.of(exception.getMessage()));
+    }
+
+    @ExceptionHandler(ProductNotFoundException.class)
+    public ResponseEntity<ErrorResponse> handlerProductNotFoundException(final ProductNotFoundException exception) {
         return ResponseEntity.badRequest().body(ErrorResponse.of(exception.getMessage()));
     }
 

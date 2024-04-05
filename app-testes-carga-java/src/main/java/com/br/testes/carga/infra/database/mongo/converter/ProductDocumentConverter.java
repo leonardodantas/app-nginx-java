@@ -14,6 +14,7 @@ public class ProductDocumentConverter implements Converter<ProductDocument, Prod
     public Product convert(final ProductDocument document) {
         return Product.builder()
                 .id(document.getId())
+                .code(document.getCode())
                 .name(document.getName())
                 .value(document.getValue())
                 .description(document.getDescription())

@@ -17,6 +17,7 @@ public class ProductDocument {
     @Id
     private String id;
     private String name;
+    private String code;
     private BigDecimal value;
     private String description;
     private CategoriesDocument categories;
@@ -25,6 +26,7 @@ public class ProductDocument {
         return new ProductDocument(
                 productId,
                 product.getName(),
+                product.getCode(),
                 product.getValue(),
                 product.getDescription(),
                 CategoriesDocument.of(productId, product)

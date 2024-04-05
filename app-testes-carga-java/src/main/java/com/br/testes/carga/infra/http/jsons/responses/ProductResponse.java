@@ -8,6 +8,7 @@ import java.util.List;
 public record ProductResponse(
         String id,
         String name,
+        String code,
         BigDecimal value,
         String description,
         List<String> values
@@ -16,6 +17,7 @@ public record ProductResponse(
         return new ProductResponse(
                 product.getId(),
                 product.getName(),
+                product.getCode(),
                 product.getValue(),
                 product.getDescription(),
                 product.getCategoriesAsListString()

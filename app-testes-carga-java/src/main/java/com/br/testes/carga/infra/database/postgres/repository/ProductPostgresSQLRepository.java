@@ -10,6 +10,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Optional;
 
 import static com.br.testes.carga.infra.database.postgres.specifications.CategoriesEntitySpecification.containsCategories;
 
@@ -52,5 +53,11 @@ public class ProductPostgresSQLRepository implements IProductRepository {
     @Override
     public void deleteAll() {
         productPostgresRepository.deleteAll();
+    }
+
+    @Override
+    public Optional<Product> findByCodeIgnoreCase(final String code) {
+        return productPostgresRepository.findByCodeIgnoreCase(code)
+                .map(productEntityConverter::convert);
     }
 }

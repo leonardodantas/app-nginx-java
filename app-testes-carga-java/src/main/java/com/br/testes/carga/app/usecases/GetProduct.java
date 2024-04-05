@@ -1,5 +1,6 @@
 package com.br.testes.carga.app.usecases;
 
+import com.br.testes.carga.app.exceptions.ProductNotFoundException;
 import com.br.testes.carga.app.repositories.IProductRepository;
 import com.br.testes.carga.domains.Product;
 import org.springframework.stereotype.Service;
@@ -21,5 +22,15 @@ public class GetProduct {
 
     public Product getByIdV2(final String productId) {
         return productPostgresSQLRepository.findById(productId);
+    }
+
+    public Product getByCodeV1(final String productCode) {
+        return productMongoDBRepository.findByCodeIgnoreCase(productCode)
+                .orElseThrow(() -> new ProductNotFoundException(String.format("Product code %s not found", productCode)));
+    }
+
+    public Product getByCodeV2(final String productCode) {
+        return productPostgresSQLRepository.findByCodeIgnoreCase(productCode)
+                .orElseThrow(() -> new ProductNotFoundException(String.format("Product code %s not found", productCode)));
     }
 }

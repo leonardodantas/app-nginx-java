@@ -1,7 +1,8 @@
 [
     {
         "name": "Camiseta",
-        "value": 25.99,
+        "code": "abcd1234",
+        "value": "25.99",
         "description": "Camiseta branca básica",
         "categories": [
             "Roupa",
@@ -10,7 +11,8 @@
     },
     {
         "name": "Tênis esportivo",
-        "value": 99.99,
+        "code": "efgh5678",
+        "value": "99.99",
         "description": "Tênis para corrida e treinos",
         "categories": [
             "Calçado",
@@ -20,7 +22,8 @@
     },
     {
         "name": "Celular",
-        "value": 899.99,
+        "code": "ijkl9012",
+        "value": "899.99",
         "description": "Smartphone com câmera de alta resolução",
         "categories": [
             "Eletrônico",
@@ -29,7 +32,8 @@
     },
     {
         "name": "Notebook",
-        "value": 1299.99,
+        "code": "mnop3456",
+        "value": "1299.99",
         "description": "Notebook leve e potente, ideal para trabalho e entretenimento.",
         "categories": [
             "Eletrônico",
@@ -38,7 +42,8 @@
     },
     {
         "name": "Livro",
-        "value": 19.99,
+        "code": "qrst7890",
+        "value": "19.99",
         "description": "Best-seller do New York Times",
         "categories": [
             "Livro",
@@ -47,35 +52,28 @@
     },
     {
         "name": "Blusa de lã",
-        "value": 39.99,
+        "code": "uvwx2345",
+        "value": "39.99",
         "description": "Blusa quente para o inverno",
         "categories": [
             "Roupa",
             "Inverno"
-        ],
-        "colors": [
-            "Azul",
-            "Verde",
-            "Vermelho"
         ]
     },
     {
         "name": "Calça jeans",
-        "value": 49.99,
+        "code": "yzab6789",
+        "value": "49.99",
         "description": "Calça jeans de corte reto",
         "categories": [
             "Roupa",
             "Jeans"
-        ],
-        "sizes": [
-            "P",
-            "M",
-            "G"
         ]
     },
     {
         "name": "Caneca personalizada",
-        "value": 9.99,
+        "code": "cdef0123",
+        "value": "9.99",
         "description": "Caneca com foto personalizada",
         "categories": [
             "Presente",
@@ -84,7 +82,8 @@
     },
     {
         "name": "Relógio de pulso",
-        "value": 499.99,
+        "code": "ghij4567",
+        "value": "499.99",
         "description": "Relógio de pulso com pulseira de couro genuíno",
         "categories": [
             "Acessório",
@@ -93,7 +92,8 @@
     },
     {
         "name": "Carrinho de brinquedo",
-        "value": 29.99,
+        "code": "klmn8901",
+        "value": "29.99",
         "description": "Carrinho de brinquedo para crianças",
         "categories": [
             "Brinquedo",
@@ -102,7 +102,8 @@
     },
     {
         "name": "Notebook",
-        "value": 1299.99,
+        "code": "opqr2345",
+        "value": "1299.99",
         "description": "Notebook leve e potente, ideal para trabalho e entretenimento.",
         "categories": [
             "Eletrônico",
@@ -111,7 +112,8 @@
     },
     {
         "name": "Smart TV",
-        "value": 799.99,
+        "code": "stuv6789",
+        "value": "799.99",
         "description": "Smart TV de 55 polegadas com resolução 4K",
         "categories": [
             "Eletrônico",
@@ -121,7 +123,8 @@
     },
     {
         "name": "Mouse sem fio",
-        "value": 29.99,
+        "code": "wxyz0123",
+        "value": "29.99",
         "description": "Mouse ergonômico sem fio com receptor USB",
         "categories": [
             "Eletrônico",
@@ -131,7 +134,8 @@
     },
     {
         "name": "Óculos de sol",
-        "value": 49.99,
+        "code": "bcde4567",
+        "value": "49.99",
         "description": "Óculos de sol polarizados com armação de metal",
         "categories": [
             "Moda",
@@ -140,7 +144,8 @@
     },
     {
         "name": "Bola de futebol",
-        "value": 19.99,
+        "code": "fghi8901",
+        "value": "19.99",
         "description": "Bola de futebol oficial da FIFA",
         "categories": [
             "Esporte",
@@ -149,7 +154,8 @@
     },
     {
         "name": "Kit de maquiagem",
-        "value": 39.99,
+        "code": "jklm2345",
+        "value": "39.99",
         "description": "Kit de maquiagem profissional com sombras e batons",
         "categories": [
             "Beleza",
@@ -158,7 +164,8 @@
     },
     {
         "name": "Tapete felpudo",
-        "value": 79.99,
+        "code": "nopq6789",
+        "value": "79.99",
         "description": "Tapete felpudo de alta qualidade para sala de estar",
         "categories": [
             "Casa",
@@ -167,7 +174,8 @@
     },
     {
         "name": "Café gourmet",
-        "value": 9.99,
+        "code": "rstu0123",
+        "value": "9.99",
         "description": "Café gourmet de torra média com notas frutadas",
         "categories": [
             "Alimento",
@@ -177,7 +185,8 @@
     },
     {
         "name": "Smartwatch",
-        "value": 199.99,
+        "code": "vwxy4567",
+        "value": "199.99",
         "description": "Smartwatch com monitor de frequência cardíaca e GPS integrado",
         "categories": [
             "Eletrônico",
@@ -187,7 +196,8 @@
     },
     {
         "name": "Cadeira de escritório",
-        "value": 149.99,
+        "code": "zabc8901",
+        "value": "149.99",
         "description": "Cadeira ergonômica de escritório com apoio lombar ajustável",
         "categories": [
             "Casa",
@@ -197,7 +207,8 @@
     },
     {
         "name": "Câmera fotográfica",
-        "value": 399.99,
+        "code": "defg2345",
+        "value": "399.99",
         "description": "Câmera digital compacta com zoom óptico de 20x",
         "categories": [
             "Eletrônico",
@@ -207,7 +218,8 @@
     },
     {
         "name": "Fone de ouvido Bluetooth",
-        "value": 59.99,
+        "code": "hijk6789",
+        "value": "59.99",
         "description": "Fone de ouvido Bluetooth com cancelamento de ruído",
         "categories": [
             "Eletrônico",
@@ -217,7 +229,8 @@
     },
     {
         "name": "Tênis de corrida",
-        "value": 89.99,
+        "code": "lmno0123",
+        "value": "89.99",
         "description": "Tênis de corrida leve e confortável",
         "categories": [
             "Esporte",
@@ -226,7 +239,8 @@
     },
     {
         "name": "Mochila escolar",
-        "value": 29.99,
+        "code": "pqrs4567",
+        "value": "29.99",
         "description": "Mochila escolar resistente e com vários compartimentos",
         "categories": [
             "Moda",
@@ -236,7 +250,8 @@
     },
     {
         "name": "Panela elétrica",
-        "value": 69.99,
+        "code": "tuvw8901",
+        "value": "69.99",
         "description": "Panela elétrica programável para cozimento lento",
         "categories": [
             "Casa",
@@ -246,7 +261,8 @@
     },
     {
         "name": "Relógio de parede",
-        "value": 19.99,
+        "code": "xyz1234",
+        "value": "19.99",
         "description": "Relógio de parede decorativo com ponteiros dourados",
         "categories": [
             "Casa",
@@ -256,7 +272,8 @@
     },
     {
         "name": "Livro de ficção",
-        "value": 14.99,
+        "code": "abcd5678",
+        "value": "14.99",
         "description": "Best-seller de ficção científica",
         "categories": [
             "Livro",
@@ -266,7 +283,8 @@
     },
     {
         "name": "Carregador portátil",
-        "value": 24.99,
+        "code": "efgh9012",
+        "value": "24.99",
         "description": "Carregador portátil com capacidade de 10000mAh",
         "categories": [
             "Eletrônico",
@@ -276,7 +294,8 @@
     },
     {
         "name": "Caneta esferográfica",
-        "value": 2.99,
+        "code": "ijkl3456",
+        "value": "2.99",
         "description": "Caneta esferográfica de ponta fina",
         "categories": [
             "Papelaria",
@@ -286,7 +305,8 @@
     },
     {
         "name": "Quebra-cabeça",
-        "value": 9.99,
+        "code": "mnop7890",
+        "value": "9.99",
         "description": "Quebra-cabeça de 1000 peças",
         "categories": [
             "Jogos",
@@ -295,7 +315,8 @@
     },
     {
         "name": "Fraldas descartáveis",
-        "value": 29.99,
+        "code": "qrst2345",
+        "value": "29.99",
         "description": "Pacote de fraldas descartáveis para bebês",
         "categories": [
             "Bebê",
@@ -304,7 +325,8 @@
     },
     {
         "name": "Notebook",
-        "value": 1299.99,
+        "code": "uvwx6789",
+        "value": "1299.99",
         "description": "Notebook leve e potente, ideal para trabalho e entretenimento.",
         "categories": [
             "Eletrônico",
@@ -313,7 +335,8 @@
     },
     {
         "name": "Smart TV",
-        "value": 799.99,
+        "code": "yzab0123",
+        "value": "799.99",
         "description": "Smart TV de 55 polegadas com resolução 4K",
         "categories": [
             "Eletrônico",
@@ -323,7 +346,8 @@
     },
     {
         "name": "Mouse sem fio",
-        "value": 29.99,
+        "code": "cdef4567",
+        "value": "29.99",
         "description": "Mouse ergonômico sem fio com receptor USB",
         "categories": [
             "Eletrônico",
@@ -333,7 +357,8 @@
     },
     {
         "name": "Óculos de sol",
-        "value": 49.99,
+        "code": "ghij8901",
+        "value": "49.99",
         "description": "Óculos de sol polarizados com armação de metal",
         "categories": [
             "Moda",
@@ -342,7 +367,8 @@
     },
     {
         "name": "Bola de futebol",
-        "value": 19.99,
+        "code": "klmn2345",
+        "value": "19.99",
         "description": "Bola de futebol oficial da FIFA",
         "categories": [
             "Esporte",
@@ -351,7 +377,8 @@
     },
     {
         "name": "Kit de maquiagem",
-        "value": 39.99,
+        "code": "opqr6789",
+        "value": "39.99",
         "description": "Kit de maquiagem profissional com sombras e batons",
         "categories": [
             "Beleza",
@@ -360,7 +387,8 @@
     },
     {
         "name": "Tapete felpudo",
-        "value": 79.99,
+        "code": "stuv0123",
+        "value": "79.99",
         "description": "Tapete felpudo de alta qualidade para sala de estar",
         "categories": [
             "Casa",
@@ -369,7 +397,8 @@
     },
     {
         "name": "Café gourmet",
-        "value": 9.99,
+        "code": "wxyz4567",
+        "value": "9.99",
         "description": "Café gourmet de torra média com notas frutadas",
         "categories": [
             "Alimento",
@@ -379,7 +408,8 @@
     },
     {
         "name": "Smartwatch",
-        "value": 199.99,
+        "code": "bcde8901",
+        "value": "199.99",
         "description": "Smartwatch com monitor de frequência cardíaca e GPS integrado",
         "categories": [
             "Eletrônico",
@@ -389,7 +419,8 @@
     },
     {
         "name": "Cadeira de escritório",
-        "value": 149.99,
+        "code": "fghi2345",
+        "value": "149.99",
         "description": "Cadeira ergonômica de escritório com apoio lombar ajustável",
         "categories": [
             "Casa",
@@ -399,7 +430,8 @@
     },
     {
         "name": "Câmera fotográfica",
-        "value": 399.99,
+        "code": "jklm6789",
+        "value": "399.99",
         "description": "Câmera digital compacta com zoom óptico de 20x",
         "categories": [
             "Eletrônico",
@@ -409,7 +441,8 @@
     },
     {
         "name": "Fone de ouvido Bluetooth",
-        "value": 59.99,
+        "code": "nopq0123",
+        "value": "59.99",
         "description": "Fone de ouvido Bluetooth com cancelamento de ruído",
         "categories": [
             "Eletrônico",
@@ -419,7 +452,8 @@
     },
     {
         "name": "Tênis de corrida",
-        "value": 89.99,
+        "code": "rstu4567",
+        "value": "89.99",
         "description": "Tênis de corrida leve e confortável",
         "categories": [
             "Esporte",
@@ -428,7 +462,8 @@
     },
     {
         "name": "Mochila escolar",
-        "value": 29.99,
+        "code": "vwxy8901",
+        "value": "29.99",
         "description": "Mochila escolar resistente e com vários compartimentos",
         "categories": [
             "Moda",
@@ -438,7 +473,8 @@
     },
     {
         "name": "Panela elétrica",
-        "value": 69.99,
+        "code": "zabc2345",
+        "value": "69.99",
         "description": "Panela elétrica programável para cozimento lento",
         "categories": [
             "Casa",
@@ -448,7 +484,8 @@
     },
     {
         "name": "Relógio de parede",
-        "value": 19.99,
+        "code": "defg6789",
+        "value": "19.99",
         "description": "Relógio de parede decorativo com ponteiros dourados",
         "categories": [
             "Casa",
@@ -458,7 +495,8 @@
     },
     {
         "name": "Livro de ficção",
-        "value": 14.99,
+        "code": "hijk0123",
+        "value": "14.99",
         "description": "Best-seller de ficção científica",
         "categories": [
             "Livro",
@@ -468,7 +506,8 @@
     },
     {
         "name": "Carregador portátil",
-        "value": 24.99,
+        "code": "lmno4567",
+        "value": "24.99",
         "description": "Carregador portátil com capacidade de 10000mAh",
         "categories": [
             "Eletrônico",
@@ -478,7 +517,8 @@
     },
     {
         "name": "Caneta esferográfica",
-        "value": 2.99,
+        "code": "pqrs8901",
+        "value": "2.99",
         "description": "Caneta esferográfica de ponta fina",
         "categories": [
             "Papelaria",
@@ -488,7 +528,8 @@
     },
     {
         "name": "Quebra-cabeça",
-        "value": 9.99,
+        "code": "tuvw2345",
+        "value": "9.99",
         "description": "Quebra-cabeça de 1000 peças",
         "categories": [
             "Jogos",
@@ -497,7 +538,8 @@
     },
     {
         "name": "Fraldas descartáveis",
-        "value": 29.99,
+        "code": "xyz6789",
+        "value": "29.99",
         "description": "Pacote de fraldas descartáveis para bebês",
         "categories": [
             "Bebê",
@@ -506,7 +548,8 @@
     },
     {
         "name": "Tênis de caminhada",
-        "value": 69.99,
+        "code": "abcd0123",
+        "value": "69.99",
         "description": "Tênis de caminhada confortável e resistente",
         "categories": [
             "Esporte",
@@ -515,7 +558,8 @@
     },
     {
         "name": "Cadeira de praia",
-        "value": 49.99,
+        "code": "efgh4567",
+        "value": "49.99",
         "description": "Cadeira de praia dobrável com porta-copos",
         "categories": [
             "Lazer",
@@ -524,7 +568,8 @@
     },
     {
         "name": "Pendrive USB",
-        "value": 14.99,
+        "code": "ijkl8901",
+        "value": "14.99",
         "description": "Pendrive USB 3.0 com capacidade de 32GB",
         "categories": [
             "Eletrônico",
@@ -533,7 +578,8 @@
     },
     {
         "name": "Fones de ouvido com fio",
-        "value": 19.99,
+        "code": "mnop2345",
+        "value": "19.99",
         "description": "Fones de ouvido com fio de alta qualidade",
         "categories": [
             "Eletrônico",
@@ -542,7 +588,8 @@
     },
     {
         "name": "Luminária de mesa",
-        "value": 39.99,
+        "code": "qrst6789",
+        "value": "39.99",
         "description": "Luminária de mesa ajustável com luz LED",
         "categories": [
             "Casa",
@@ -552,7 +599,8 @@
     },
     {
         "name": "DVD player",
-        "value": 59.99,
+        "code": "uvwx0123",
+        "value": "59.99",
         "description": "DVD player com reprodução de CD e MP3",
         "categories": [
             "Eletrônico",
@@ -562,7 +610,8 @@
     },
     {
         "name": "Câmera de segurança",
-        "value": 89.99,
+        "code": "yzab4567",
+        "value": "89.99",
         "description": "Câmera de segurança Wi-Fi com visão noturna",
         "categories": [
             "Eletrônico",
@@ -572,7 +621,8 @@
     },
     {
         "name": "Chapéu de sol",
-        "value": 24.99,
+        "code": "cdef8901",
+        "value": "24.99",
         "description": "Chapéu de sol com proteção UV",
         "categories": [
             "Moda",
@@ -582,7 +632,8 @@
     },
     {
         "name": "Carrinho de bebê",
-        "value": 199.99,
+        "code": "ghij2345",
+        "value": "199.99",
         "description": "Carrinho de bebê dobrável com assento reclinável",
         "categories": [
             "Bebê",
@@ -591,7 +642,8 @@
     },
     {
         "name": "Sapato social",
-        "value": 79.99,
+        "code": "klmn6789",
+        "value": "79.99",
         "description": "Sapato social de couro para ocasiões formais",
         "categories": [
             "Moda",
@@ -601,7 +653,8 @@
     },
     {
         "name": "Churrasqueira portátil",
-        "value": 49.99,
+        "code": "opqr0123",
+        "value": "49.99",
         "description": "Churrasqueira portátil a carvão para camping",
         "categories": [
             "Casa",
@@ -611,7 +664,8 @@
     },
     {
         "name": "Bolsa térmica",
-        "value": 29.99,
+        "code": "stuv4567",
+        "value": "29.99",
         "description": "Bolsa térmica para transporte de alimentos",
         "categories": [
             "Casa",
@@ -621,7 +675,8 @@
     },
     {
         "name": "Ferramenta multifuncional",
-        "value": 39.99,
+        "code": "wxyz8901",
+        "value": "39.99",
         "description": "Ferramenta multifuncional com alicates e chave de fenda",
         "categories": [
             "Casa",
@@ -630,7 +685,8 @@
     },
     {
         "name": "Óleo essencial",
-        "value": 9.99,
+        "code": "bcde2345",
+        "value": "9.99",
         "description": "Óleo essencial de lavanda para aromaterapia",
         "categories": [
             "Saúde",
@@ -640,7 +696,8 @@
     },
     {
         "name": "Copo térmico",
-        "value": 14.99,
+        "code": "fghi6789",
+        "value": "14.99",
         "description": "Copo térmico de aço inoxidável com tampa",
         "categories": [
             "Casa",
@@ -650,7 +707,8 @@
     },
     {
         "name": "Cabo USB",
-        "value": 7.99,
+        "code": "jklm0123",
+        "value": "7.99",
         "description": "Cabo USB tipo C de alta velocidade",
         "categories": [
             "Eletrônico",
@@ -660,7 +718,8 @@
     },
     {
         "name": "Fraldas de pano",
-        "value": 19.99,
+        "code": "nopq4567",
+        "value": "19.99",
         "description": "Kit de fraldas de pano reutilizáveis para bebês",
         "categories": [
             "Bebê",
@@ -669,7 +728,8 @@
     },
     {
         "name": "Protetor solar",
-        "value": 12.99,
+        "code": "rstu8901",
+        "value": "12.99",
         "description": "Protetor solar FPS 50 para peles sensíveis",
         "categories": [
             "Beleza",
@@ -679,7 +739,8 @@
     },
     {
         "name": "E-book reader",
-        "value": 119.99,
+        "code": "vwxy2345",
+        "value": "119.99",
         "description": "E-book reader com tela de alta resolução",
         "categories": [
             "Eletrônico",
@@ -689,7 +750,8 @@
     },
     {
         "name": "Capa para celular",
-        "value": 9.99,
+        "code": "zabc6789",
+        "value": "9.99",
         "description": "Capa de silicone para celular",
         "categories": [
             "Eletrônico",
@@ -699,12 +761,893 @@
     },
     {
         "name": "Creme hidratante",
-        "value": 14.99,
+        "code": "defg0123",
+        "value": "14.99",
         "description": "Creme hidratante corporal com óleo de coco",
         "categories": [
             "Beleza",
             "Cuidados",
             "Hidratação"
+        ]
+    },
+    {
+        "name": "Creme hidratante",
+        "code": "hijk4567",
+        "value": "14.99",
+        "description": "Creme hidratante corporal com óleo de coco",
+        "categories": [
+            "Beleza",
+            "Cuidados",
+            "Hidratação"
+        ]
+    },
+    {
+        "name": "Shampoo revitalizante",
+        "code": "lmno8901",
+        "value": "9.99",
+        "description": "Shampoo revitalizante para cabelos danificados",
+        "categories": [
+            "Beleza",
+            "Cuidados",
+            "Capilar"
+        ]
+    },
+    {
+        "name": "Sabonete líquido",
+        "code": "pqrs2345",
+        "value": "5.49",
+        "description": "Sabonete líquido suave para uso diário",
+        "categories": [
+            "Beleza",
+            "Cuidados",
+            "Higiene"
+        ]
+    },
+    {
+        "name": "Protetor solar FPS 30",
+        "code": "tuvw6789",
+        "value": "19.99",
+        "description": "Protetor solar com fator de proteção 30",
+        "categories": [
+            "Beleza",
+            "Cuidados",
+            "Proteção Solar"
+        ]
+    },
+    {
+        "name": "Creme anti-idade",
+        "code": "xyz0123",
+        "value": "24.99",
+        "description": "Creme anti-idade para redução de rugas",
+        "categories": [
+            "Beleza",
+            "Cuidados",
+            "Anti-idade"
+        ]
+    },
+    {
+        "name": "Perfume floral",
+        "code": "abcd4567",
+        "value": "49.99",
+        "description": "Perfume feminino com notas florais",
+        "categories": [
+            "Beleza",
+            "Fragrâncias",
+            "Feminino"
+        ]
+    },
+    {
+        "name": "Desodorante roll-on",
+        "code": "efgh8901",
+        "value": "3.99",
+        "description": "Desodorante roll-on para controle de odor",
+        "categories": [
+            "Beleza",
+            "Cuidados",
+            "Higiene"
+        ]
+    },
+    {
+        "name": "Máscara facial",
+        "code": "ijkl2345",
+        "value": "8.99",
+        "description": "Máscara facial de argila para limpeza profunda",
+        "categories": [
+            "Beleza",
+            "Cuidados",
+            "Facial"
+        ]
+    },
+    {
+        "name": "Esmalte vermelho",
+        "code": "mnop6789",
+        "value": "6.49",
+        "description": "Esmalte vermelho de longa duração",
+        "categories": [
+            "Beleza",
+            "Maquiagem",
+            "Unhas"
+        ]
+    },
+    {
+        "name": "Batom matte",
+        "code": "qrst0123",
+        "value": "12.99",
+        "description": "Batom de acabamento matte em tom nude",
+        "categories": [
+            "Beleza",
+            "Maquiagem",
+            "Lábios"
+        ]
+    },
+    {
+        "name": "Farinha de trigo",
+        "code": "uvwx4567",
+        "value": "4.99",
+        "description": "Farinha de trigo tipo 1, pacote de 1kg",
+        "categories": [
+            "Alimentos",
+            "Farinhas",
+            "Básicos"
+        ]
+    },
+    {
+        "name": "Sal refinado",
+        "code": "yzab8901",
+        "value": "1.79",
+        "description": "Sal refinado iodado, pacote de 1kg",
+        "categories": [
+            "Alimentos",
+            "Condimentos",
+            "Básicos"
+        ]
+    },
+    {
+        "name": "Vinagre de maçã",
+        "code": "cdef2345",
+        "value": "3.49",
+        "description": "Vinagre de maçã, garrafa de 500ml",
+        "categories": [
+            "Alimentos",
+            "Condimentos",
+            "Básicos"
+        ]
+    },
+    {
+        "name": "Cereal matinal",
+        "code": "ghij6789",
+        "value": "6.99",
+        "description": "Cereal matinal de aveia e mel, caixa de 400g",
+        "categories": [
+            "Alimentos",
+            "Cereais",
+            "Básicos"
+        ]
+    },
+    {
+        "name": "Molho de tomate",
+        "code": "klmn0123",
+        "value": "2.49",
+        "description": "Molho de tomate pronto, sachê de 340g",
+        "categories": [
+            "Alimentos",
+            "Molhos",
+            "Básicos"
+        ]
+    },
+    {
+        "name": "Azeite de oliva",
+        "code": "opqr4567",
+        "value": "12.99",
+        "description": "Azeite de oliva extra virgem, garrafa de 500ml",
+        "categories": [
+            "Alimentos",
+            "Óleos",
+            "Básicos"
+        ]
+    },
+    {
+        "name": "Creme de leite",
+        "code": "stuv8901",
+        "value": "2.29",
+        "description": "Creme de leite, lata de 200g",
+        "categories": [
+            "Alimentos",
+            "Laticínios",
+            "Básicos"
+        ]
+    },
+    {
+        "name": "Geleia de frutas",
+        "code": "wxyz2345",
+        "value": "5.49",
+        "description": "Geleia de frutas sortidas, pote de 250g",
+        "categories": [
+            "Alimentos",
+            "Doces",
+            "Básicos"
+        ]
+    },
+    {
+        "name": "Café solúvel",
+        "code": "bcde6789",
+        "value": "8.99",
+        "description": "Café solúvel em pó, frasco de 100g",
+        "categories": [
+            "Alimentos",
+            "Bebidas",
+            "Básicos"
+        ]
+    },
+    {
+        "name": "Leite condensado",
+        "code": "fghi0123",
+        "value": "3.79",
+        "description": "Leite condensado, lata de 395g",
+        "categories": [
+            "Alimentos",
+            "Laticínios",
+            "Básicos"
+        ]
+    },
+    {
+        "name": "Filé Mignon",
+        "code": "jklm4567",
+        "value": "39.99",
+        "description": "Corte nobre de carne bovina, pacote de 500g",
+        "categories": [
+            "Alimentos",
+            "Carnes",
+            "Bovina"
+        ]
+    },
+    {
+        "name": "Picanha",
+        "code": "nopq8901",
+        "value": "29.99",
+        "description": "Corte suculento de carne bovina, peça de 1kg",
+        "categories": [
+            "Alimentos",
+            "Carnes",
+            "Bovina"
+        ]
+    },
+    {
+        "name": "Coxinha da asa",
+        "code": "rstu2345",
+        "value": "9.49",
+        "description": "Corte de frango para churrasco, pacote de 1kg",
+        "categories": [
+            "Alimentos",
+            "Carnes",
+            "Frango"
+        ]
+    },
+    {
+        "name": "Costelinha suína",
+        "code": "vwxy6789",
+        "value": "15.99",
+        "description": "Costela de porco temperada, bandeja de 800g",
+        "categories": [
+            "Alimentos",
+            "Carnes",
+            "Suína"
+        ]
+    },
+    {
+        "name": "Linguiça toscana",
+        "code": "zabc0123",
+        "value": "7.99",
+        "description": "Linguiça temperada para churrasco, pacote de 500g",
+        "categories": [
+            "Alimentos",
+            "Embutidos",
+            "Suína"
+        ]
+    },
+    {
+        "name": "Alcatra",
+        "code": "defg4567",
+        "value": "25.99",
+        "description": "Corte magro de carne bovina, peça de 1kg",
+        "categories": [
+            "Alimentos",
+            "Carnes",
+            "Bovina"
+        ]
+    },
+    {
+        "name": "Coração de frango",
+        "code": "hijk8901",
+        "value": "12.49",
+        "description": "Coração de frango para churrasco, bandeja de 500g",
+        "categories": [
+            "Alimentos",
+            "Carnes",
+            "Frango"
+        ]
+    },
+    {
+        "name": "Carne moída",
+        "code": "lmno2345",
+        "value": "19.99",
+        "description": "Carne bovina moída fresca, pacote de 500g",
+        "categories": [
+            "Alimentos",
+            "Carnes",
+            "Bovina"
+        ]
+    },
+    {
+        "name": "Coxão mole",
+        "code": "pqrs6789",
+        "value": "22.99",
+        "description": "Corte macio de carne bovina, peça de 1kg",
+        "categories": [
+            "Alimentos",
+            "Carnes",
+            "Bovina"
+        ]
+    },
+    {
+        "name": "Peito de frango",
+        "code": "tuvw0123",
+        "value": "8.99",
+        "description": "Peito de frango desossado, bandeja de 800g",
+        "categories": [
+            "Alimentos",
+            "Carnes",
+            "Frango"
+        ]
+    },
+    {
+        "name": "Smartphone",
+        "code": "xyz4567",
+        "value": "1299.99",
+        "description": "Smartphone de última geração com tela OLED e câmera de alta resolução",
+        "categories": [
+            "Tecnologia",
+            "Eletrônicos",
+            "Comunicação"
+        ]
+    },
+    {
+        "name": "Tênis esportivo",
+        "code": "abcd8901",
+        "value": "99.99",
+        "description": "Tênis confortável e durável para prática esportiva",
+        "categories": [
+            "Moda",
+            "Calçados",
+            "Esportes"
+        ]
+    },
+    {
+        "name": "Livro de ficção",
+        "code": "efgh2345",
+        "value": "19.99",
+        "description": "Best-seller de ficção de suspense",
+        "categories": [
+            "Entretenimento",
+            "Livros",
+            "Ficção"
+        ]
+    },
+    {
+        "name": "Fone de ouvido sem fio",
+        "code": "ijkl6789",
+        "value": "79.99",
+        "description": "Fone de ouvido Bluetooth com cancelamento de ruído",
+        "categories": [
+            "Tecnologia",
+            "Áudio",
+            "Eletrônicos"
+        ]
+    },
+    {
+        "name": "Mochila escolar",
+        "code": "mnop0123",
+        "value": "49.99",
+        "description": "Mochila resistente e espaçosa para estudantes",
+        "categories": [
+            "Moda",
+            "Acessórios",
+            "Escolar"
+        ]
+    },
+    {
+        "name": "Caneca personalizada",
+        "code": "qrst4567",
+        "value": "9.99",
+        "description": "Caneca de cerâmica com estampa personalizada",
+        "categories": [
+            "Casa",
+            "Utensílios",
+            "Presentes"
+        ]
+    },
+    {
+        "name": "Panela de pressão",
+        "code": "uvwx8901",
+        "value": "39.99",
+        "description": "Panela de pressão em alumínio de alta qualidade",
+        "categories": [
+            "Casa",
+            "Cozinha",
+            "Utensílios"
+        ]
+    },
+    {
+        "name": "Bicicleta urbana",
+        "code": "yzab2345",
+        "value": "299.99",
+        "description": "Bicicleta de passeio urbana com marchas",
+        "categories": [
+            "Esportes",
+            "Lazer",
+            "Transporte"
+        ]
+    },
+    {
+        "name": "Pijama infantil",
+        "code": "cdef6789",
+        "value": "29.99",
+        "description": "Conjunto de pijama de algodão para crianças",
+        "categories": [
+            "Moda",
+            "Infantil",
+            "Roupa de Dormir"
+        ]
+    },
+    {
+        "name": "Cadeira de escritório",
+        "code": "ghij0123",
+        "value": "149.99",
+        "description": "Cadeira ergonômica para escritório com ajustes de altura e inclinação",
+        "categories": [
+            "Casa",
+            "Móveis",
+            "Escritório"
+        ]
+    },
+    {
+        "name": "Cafeteira elétrica",
+        "code": "klmn4567",
+        "value": "69.99",
+        "description": "Cafeteira programável com jarra de vidro",
+        "categories": [
+            "Casa",
+            "Eletrodomésticos",
+            "Café"
+        ]
+    },
+    {
+        "name": "Monitor de computador",
+        "code": "opqr8901",
+        "value": "199.99",
+        "description": "Monitor LED de alta resolução para computadores",
+        "categories": [
+            "Tecnologia",
+            "Eletrônicos",
+            "Computadores"
+        ]
+    },
+    {
+        "name": "Relógio de pulso",
+        "code": "stuv2345",
+        "value": "59.99",
+        "description": "Relógio analógico resistente à água com pulseira de couro",
+        "categories": [
+            "Moda",
+            "Acessórios",
+            "Relógios"
+        ]
+    },
+    {
+        "name": "Ferramenta multiuso",
+        "code": "wxyz6789",
+        "value": "24.99",
+        "description": "Ferramenta com múltiplas funções, incluindo alicate e chave de fenda",
+        "categories": [
+            "Casa",
+            "Ferramentas",
+            "Utilidades"
+        ]
+    },
+    {
+        "name": "Jogo de tabuleiro",
+        "code": "bcde0123",
+        "value": "39.99",
+        "description": "Jogo de estratégia para toda a família",
+        "categories": [
+            "Entretenimento",
+            "Jogos",
+            "Família"
+        ]
+    },
+    {
+        "name": "Carregador portátil",
+        "code": "fghi4567",
+        "value": "29.99",
+        "description": "Carregador de bateria portátil para dispositivos móveis",
+        "categories": [
+            "Tecnologia",
+            "Acessórios",
+            "Eletrônicos"
+        ]
+    },
+    {
+        "name": "Protetor solar",
+        "code": "jklm8901",
+        "value": "14.99",
+        "description": "Protetor solar FPS 50 para pele sensível",
+        "categories": [
+            "Cuidados Pessoais",
+            "Beleza",
+            "Proteção"
+        ]
+    },
+    {
+        "name": "Churrasqueira portátil",
+        "code": "nopq2345",
+        "value": "49.99",
+        "description": "Churrasqueira a carvão para uso externo",
+        "categories": [
+            "Casa",
+            "Lazer",
+            "Churrasco"
+        ]
+    },
+    {
+        "name": "Óculos de sol",
+        "code": "rstu6789",
+        "value": "39.99",
+        "description": "Óculos de sol polarizados com armação de metal",
+        "categories": [
+            "Moda",
+            "Acessórios",
+            "Óculos"
+        ]
+    },
+    {
+        "name": "Teclado sem fio",
+        "code": "vwxy0123",
+        "value": "29.99",
+        "description": "Teclado sem fio compacto para computadores",
+        "categories": [
+            "Tecnologia",
+            "Eletrônicos",
+            "Computadores"
+        ]
+    },
+    {
+        "name": "Saco de dormir",
+        "code": "zabc4567",
+        "value": "59.99",
+        "description": "Saco de dormir leve e compacto para camping",
+        "categories": [
+            "Esportes",
+            "Lazer",
+            "Camping"
+        ]
+    },
+    {
+        "name": "Creme hidratante",
+        "code": "defg8901",
+        "value": "9.99",
+        "description": "Creme hidratante corporal para pele seca",
+        "categories": [
+            "Beleza",
+            "Cuidados",
+            "Hidratação"
+        ]
+    },
+    {
+        "name": "Guarda-chuva",
+        "code": "hijk2345",
+        "value": "19.99",
+        "description": "Guarda-chuva resistente ao vento com abertura automática",
+        "categories": [
+            "Moda",
+            "Acessórios",
+            "Chuva"
+        ]
+    },
+    {
+        "name": "Caixa de ferramentas",
+        "code": "lmno6789",
+        "value": "49.99",
+        "description": "Caixa de ferramentas completa com várias peças",
+        "categories": [
+            "Casa",
+            "Ferramentas",
+            "Utilidades"
+        ]
+    },
+    {
+        "name": "Cesta de piquenique",
+        "code": "pqrs0123",
+        "value": "39.99",
+        "description": "Cesta de vime com utensílios para piquenique",
+        "categories": [
+            "Casa",
+            "Lazer",
+            "Piquenique"
+        ]
+    },
+    {
+        "name": "Lanterna recarregável",
+        "code": "tuvw4567",
+        "value": "24.99",
+        "description": "Lanterna LED recarregável com alça dobrável",
+        "categories": [
+            "Casa",
+            "Utilidades",
+            "Iluminação"
+        ]
+    },
+    {
+        "name": "Squeeze",
+        "code": "xyz8901",
+        "value": "7.99",
+        "description": "Squeeze de plástico com tampa rosqueável",
+        "categories": [
+            "Esportes",
+            "Acessórios",
+            "Hidratação"
+        ]
+    },
+    {
+        "name": "Caixa de som Bluetooth",
+        "code": "abcd2345",
+        "value": "49.99",
+        "description": "Caixa de som portátil com conexão Bluetooth",
+        "categories": [
+            "Tecnologia",
+            "Áudio",
+            "Eletrônicos"
+        ]
+    },
+    {
+        "name": "Pasta de dente",
+        "code": "efgh6789",
+        "value": "2.99",
+        "description": "Pasta de dente com flúor para prevenção de cáries",
+        "categories": [
+            "Cuidados Pessoais",
+            "Higiene",
+            "Oral"
+        ]
+    },
+    {
+        "name": "Carteira masculina",
+        "code": "ijkl0123",
+        "value": "29.99",
+        "description": "Carteira de couro com compartimentos para cartões e dinheiro",
+        "categories": [
+            "Moda",
+            "Acessórios",
+            "Masculino"
+        ]
+    },
+    {
+        "name": "Toalha de banho",
+        "code": "mnop4567",
+        "value": "12.99",
+        "description": "Toalha de banho macia e absorvente",
+        "categories": [
+            "Casa",
+            "Banho",
+            "Têxtil"
+        ]
+    },
+    {
+        "name": "Barbeador elétrico",
+        "code": "qrst8901",
+        "value": "39.99",
+        "description": "Barbeador elétrico recarregável com lâminas de precisão",
+        "categories": [
+            "Cuidados Pessoais",
+            "Beleza",
+            "Barbear"
+        ]
+    },
+    {
+        "name": "Mouse sem fio",
+        "code": "uvwx2345",
+        "value": "19.99",
+        "description": "Mouse óptico sem fio para computadores",
+        "categories": [
+            "Tecnologia",
+            "Eletrônicos",
+            "Computadores"
+        ]
+    },
+    {
+        "name": "Cadeira de praia",
+        "code": "yzab6789",
+        "value": "34.99",
+        "description": "Cadeira dobrável para praia com encosto reclinável",
+        "categories": [
+            "Lazer",
+            "Praia",
+            "Camping"
+        ]
+    },
+    {
+        "name": "Câmera esportiva",
+        "code": "cdef0123",
+        "value": "79.99",
+        "description": "Câmera de ação resistente à água e choques",
+        "categories": [
+            "Tecnologia",
+            "Eletrônicos",
+            "Esportes"
+        ]
+    },
+    {
+        "name": "Pasta executiva",
+        "code": "ghij4567",
+        "value": "49.99",
+        "description": "Pasta para documentos e laptop com alça de ombro",
+        "categories": [
+            "Moda",
+            "Acessórios",
+            "Executivo"
+        ]
+    },
+    {
+        "name": "Capa para celular",
+        "code": "klmn8901",
+        "value": "14.99",
+        "description": "Capa de silicone para proteção de celular",
+        "categories": [
+            "Tecnologia",
+            "Acessórios",
+            "Eletrônicos"
+        ]
+    },
+    {
+        "name": "Ventilador de mesa",
+        "code": "opqr2345",
+        "value": "39.99",
+        "description": "Ventilador portátil de mesa com ajuste de velocidade",
+        "categories": [
+            "Casa",
+            "Eletrodomésticos",
+            "Ventilação"
+        ]
+    },
+    {
+        "name": "Kit de ferramentas",
+        "code": "stuv6789",
+        "value": "69.99",
+        "description": "Kit completo de ferramentas com maleta organizadora",
+        "categories": [
+            "Casa",
+            "Ferramentas",
+            "Utilidades"
+        ]
+    },
+    {
+        "name": "Lanterna de cabeça",
+        "code": "wxyz0123",
+        "value": "19.99",
+        "description": "Lanterna de LED para uso na cabeça com ajuste de ângulo",
+        "categories": [
+            "Casa",
+            "Utilidades",
+            "Iluminação"
+        ]
+    },
+    {
+        "name": "Creme anti-idade",
+        "code": "bcde4567",
+        "value": "29.99",
+        "description": "Creme facial anti-idade com colágeno",
+        "categories": [
+            "Beleza",
+            "Cuidados",
+            "Rosto"
+        ]
+    },
+    {
+        "name": "Bolsa feminina",
+        "code": "fghi8901",
+        "value": "59.99",
+        "description": "Bolsa de couro com alça longa e divisórias internas",
+        "categories": [
+            "Moda",
+            "Acessórios",
+            "Feminino"
+        ]
+    },
+    {
+        "name": "Guarda-roupa",
+        "code": "jklm2345",
+        "value": "299.99",
+        "description": "Guarda-roupa de madeira com várias prateleiras e gavetas",
+        "categories": [
+            "Casa",
+            "Móveis",
+            "Quarto"
+        ]
+    },
+    {
+        "name": "Laptop",
+        "code": "nopq6789",
+        "value": "999.99",
+        "description": "Laptop ultrafino com processador rápido e grande capacidade de armazenamento",
+        "categories": [
+            "Tecnologia",
+            "Eletrônicos",
+            "Computadores"
+        ]
+    },
+    {
+        "name": "Pote hermético",
+        "code": "rstu0123",
+        "value": "9.99",
+        "description": "Pote de plástico hermético para armazenamento de alimentos",
+        "categories": [
+            "Casa",
+            "Cozinha",
+            "Utensílios"
+        ]
+    },
+    {
+        "name": "Bola de futebol",
+        "code": "vwxy4567",
+        "value": "19.99",
+        "description": "Bola de futebol oficial de alta qualidade",
+        "categories": [
+            "Esportes",
+            "Futebol",
+            "Lazer"
+        ]
+    },
+    {
+        "name": "Máquina de cortar cabelo",
+        "code": "zabc8901",
+        "value": "49.99",
+        "description": "Máquina de cortar cabelo com diversas opções de pente",
+        "categories": [
+            "Cuidados Pessoais",
+            "Beleza",
+            "Corte"
+        ]
+    },
+    {
+        "name": "Tapete de yoga",
+        "code": "defg2345",
+        "value": "19.99",
+        "description": "Tapete de yoga antiderrapante e lavável",
+        "categories": [
+            "Esportes",
+            "Yoga",
+            "Lazer"
+        ]
+    },
+    {
+        "name": "Caixa de som portátil",
+        "code": "hijk6789",
+        "value": "29.99",
+        "description": "Caixa de som Bluetooth compacta e resistente à água",
+        "categories": [
+            "Tecnologia",
+            "Áudio",
+            "Eletrônicos"
+        ]
+    },
+    {
+        "name": "Conjunto de panelas",
+        "code": "lmno0123",
+        "value": "89.99",
+        "description": "Conjunto de panelas antiaderentes com tampas de vidro",
+        "categories": [
+            "Casa",
+            "Cozinha",
+            "Utensílios"
         ]
     }
 ]

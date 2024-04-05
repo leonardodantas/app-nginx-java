@@ -3,6 +3,7 @@ package com.br.testes.carga.app.repositories;
 import com.br.testes.carga.domains.Product;
 
 import java.util.List;
+import java.util.Optional;
 
 public interface IProductRepository {
 
@@ -15,4 +16,6 @@ public interface IProductRepository {
     int getQuantityItems();
 
     void deleteAll();
+
+    Optional<Product> findByCodeIgnoreCase(final String code);
 }

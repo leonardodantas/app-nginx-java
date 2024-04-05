@@ -1,1 +1,2 @@
-testes-cargas-k6/relatorios/**.html
+testes-cargas-k6/relatorios/mongo/**
+testes-cargas-k6/relatorios/postgres/**

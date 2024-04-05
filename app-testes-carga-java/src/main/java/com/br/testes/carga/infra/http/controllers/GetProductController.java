@@ -18,7 +18,7 @@ public class GetProductController {
         this.getProduct = getProduct;
     }
 
-    @GetMapping("v1/product/{productId}")
+    @GetMapping("v1/product/{productId}/id")
     @ResponseStatus(HttpStatus.OK)
     @Operation(summary = "Busca de um produto pelo productId no MongoDB")
     public ProductResponse getByIdV1(@PathVariable final String productId) {
@@ -26,11 +26,27 @@ public class GetProductController {
         return ProductResponse.from(response);
     }
 
-    @GetMapping("v2/product/{productId}")
+    @GetMapping("v2/product/{productId}/id")
     @ResponseStatus(HttpStatus.OK)
     @Operation(summary = "Busca de um produto pelo productId no PostgresSQL")
     public ProductResponse getByIdV2(@PathVariable final String productId) {
         final var response = getProduct.getByIdV2(productId);
+        return ProductResponse.from(response);
+    }
+
+    @GetMapping("v1/product/{productCode}/code")
+    @ResponseStatus(HttpStatus.OK)
+    @Operation(summary = "Busca de um produto pelo productCode no MongoDB")
+    public ProductResponse getByCodeV1(@PathVariable final String productCode) {
+        final var response = getProduct.getByCodeV1(productCode);
+        return ProductResponse.from(response);
+    }
+
+    @GetMapping("v2/product/{productCode}/code")
+    @ResponseStatus(HttpStatus.OK)
+    @Operation(summary = "Busca de um produto pelo productCode no MongoDB")
+    public ProductResponse getByCodeV2(@PathVariable final String productCode) {
+        final var response = getProduct.getByCodeV2(productCode);
         return ProductResponse.from(response);
     }
 }

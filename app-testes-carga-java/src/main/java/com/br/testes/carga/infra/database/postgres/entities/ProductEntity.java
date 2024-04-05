@@ -21,6 +21,7 @@ public class ProductEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private String name;
+    private String code;
     private BigDecimal value;
     private String description;
     @With
@@ -28,13 +29,14 @@ public class ProductEntity {
     @JoinColumn(name = "categories_id", referencedColumnName = "id")
     private CategoriesEntity categories;
 
-    private ProductEntity(final String name, final BigDecimal value, final String description) {
+    private ProductEntity(final String name, final String code, final BigDecimal value, final String description) {
         this.name = name;
+        this.code = code;
         this.value = value;
         this.description = description;
     }
 
     public static ProductEntity from(final Product product) {
-        return new ProductEntity(product.getName(), product.getValue(), product.getDescription());
+        return new ProductEntity(product.getName(), product.getCode(), product.getValue(), product.getDescription());
     }
 }

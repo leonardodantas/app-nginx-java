@@ -14,6 +14,7 @@ public class ProductEntityConverter implements Converter<ProductEntity, Product>
     public Product convert(ProductEntity entity) {
         return Product.builder()
                 .id(String.valueOf(entity.getId()))
+                .code(entity.getCode())
                 .name(entity.getName())
                 .value(entity.getValue())
                 .description(entity.getDescription())

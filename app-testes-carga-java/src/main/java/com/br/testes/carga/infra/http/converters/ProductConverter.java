@@ -15,6 +15,7 @@ public class ProductConverter implements Converter<ProductRequest, Product> {
     public Product convert(final ProductRequest request) {
         return Product.builder()
                 .name(request.name())
+                .code(request.code().toUpperCase())
                 .value(request.value())
                 .description(request.description())
                 .categories(convert(request.categories()))
@@ -22,8 +23,9 @@ public class ProductConverter implements Converter<ProductRequest, Product> {
     }
 
     private Categories convert(final List<String> values) {
+        final var valuesLowerCase = values.stream().map(String::toLowerCase).toList();
         return Categories.builder()
-                .value(values)
+                .value(valuesLowerCase)
                 .build();
     }
 }
