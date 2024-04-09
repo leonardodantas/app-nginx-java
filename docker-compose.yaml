@@ -21,19 +21,6 @@ services:
         limits:
           cpus: '0.50'
           memory: '0.75GB'
-  testes-carga-pgadmin:
-    networks:
-      - rede-docker-compose
-    restart: always
-    image: dpage/pgadmin4
-    environment:
-      PGADMIN_DEFAULT_EMAIL: "leonardo@dantas.com.br"
-      PGADMIN_DEFAULT_PASSWORD: "123456"
-    ports:
-      - "16543:80"
-#    network_mode: host
-    depends_on:
-      - testes-carga-postgres
   testes-carga-mongodb:
     networks:
       - rede-docker-compose

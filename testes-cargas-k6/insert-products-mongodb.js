@@ -3,6 +3,8 @@ import { check } from 'k6';
 import { SharedArray } from 'k6/data';
 import { Counter, Rate, Trend } from 'k6/metrics';
 import { htmlReport } from "https://raw.githubusercontent.com/benc-uk/k6-reporter/main/dist/bundle.js";
+import { scenario } from 'k6/execution';
+import { uuidv4 } from 'https://jslib.k6.io/k6-utils/1.4.0/index.js';
 
 const products = new SharedArray('products', function () {
     return JSON.parse(open('./jsons/products.json'));
@@ -13,25 +15,32 @@ let successfulRequestsCounter = new Counter('successful_requests_total');
 let errorRate = new Rate('errors');
 let responseTimeTrend = new Trend('response_time');
 
-export let options = {
-    vus: 10,
-    duration: '60s'
-};
-
 export function handleSummary(data) {
-    const reportName = `./relatorios/mongo/insert-products-mongo-${new Date().getTime()}.html`;
+    const reportName = `./relatorios/mongo/insert-products-mongo.html`;
     return {
         [reportName]: htmlReport(data),
     };
 }
 
+export const options = {
+    scenarios: {
+      'use-all-the-data': {
+        executor: 'shared-iterations',
+        vus: 612,
+        iterations: products.length,
+        maxDuration: '10s',
+      },
+    },
+  };
+
+
 export default function () {
-    for (let i = 0; i < products.length; i++) {
-        let product = products[i];
+        let product = products[scenario.iterationInTest];
 
         let params = {
             headers: {
                 'Content-Type': 'application/json',
+                'Trace-Id': uuidv4()
             },
         };
 
@@ -51,7 +60,7 @@ export default function () {
 
         check(response, {
             'status is 201': (r) => r.status === 201,
+            'status is 400': (r) => r.status === 400,
         });
 
-    }
 }
