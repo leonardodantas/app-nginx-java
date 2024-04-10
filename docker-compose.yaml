@@ -33,6 +33,16 @@ services:
         limits:
           cpus: '0.50'
           memory: '0.75GB'
+  redis:
+    image: redis
+    command: redis-server --requirepass Redis2019!
+    ports:
+      - "6379:6379"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.25'
+          memory: '0.37GB'
 networks:
   rede-docker-compose:
     driver: bridge

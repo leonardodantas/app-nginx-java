@@ -18,7 +18,7 @@ public class ProductDocument {
     @Id
     private String id;
     private String name;
-    @Indexed
+    @Indexed(unique = true)
     private String code;
     private BigDecimal value;
     private String description;
@@ -33,5 +33,13 @@ public class ProductDocument {
                 product.getDescription(),
                 CategoriesDocument.of(productId, product)
         );
+    }
+
+    @Override
+    public String toString() {
+        return "ProductDocument{" +
+                "id='" + id + '\'' +
+                ", code='" + code + '\'' +
+                '}';
     }
 }

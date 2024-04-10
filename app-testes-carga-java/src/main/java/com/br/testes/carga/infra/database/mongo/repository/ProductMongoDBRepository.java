@@ -6,6 +6,8 @@ import com.br.testes.carga.domains.Product;
 import com.br.testes.carga.infra.database.mongo.converter.ProductDocumentConverter;
 import com.br.testes.carga.infra.database.mongo.documents.ProductDocument;
 import lombok.RequiredArgsConstructor;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
@@ -24,6 +26,7 @@ public class ProductMongoDBRepository implements IProductRepository {
     private final MongoTemplate mongoTemplate;
 
     @Override
+    @CacheEvict("productCache")
     public Product save(final Product product) {
         final var productId = UUID.randomUUID().toString();
         final var document = ProductDocument.of(productId, product);
@@ -32,6 +35,7 @@ public class ProductMongoDBRepository implements IProductRepository {
     }
 
     @Override
+    @Cacheable("productCache")
     public Product findById(final String productId) {
         return productMongoRepository.findById(productId)
                 .map(productDocumentConverter::convert)
