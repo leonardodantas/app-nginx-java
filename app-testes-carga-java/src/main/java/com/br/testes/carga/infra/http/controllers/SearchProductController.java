@@ -23,15 +23,8 @@ public class SearchProductController {
     @ResponseStatus(HttpStatus.OK)
     @Operation(summary = "Busca de uma lista de produtos por uma lista de categorias no MongoDB")
     public List<ProductResponse> searchByCategoriesV1(@RequestBody final CategoriesRequest request) {
-        final var response = searchProduct.findByCategoriesV1(request.values());
+        final var response = searchProduct.findByCategories(request.values());
         return response.stream().map(ProductResponse::from).toList();
     }
 
-    @GetMapping("v2/categories")
-    @ResponseStatus(HttpStatus.OK)
-    @Operation(summary = "Busca de uma lista de produtos por uma lista de categorias no PostgresSQL")
-    public List<ProductResponse> searchByCategoriesV2(@RequestBody final CategoriesRequest request) {
-        final var response = searchProduct.findByCategoriesV2(request.values());
-        return response.stream().map(ProductResponse::from).toList();
-    }
 }

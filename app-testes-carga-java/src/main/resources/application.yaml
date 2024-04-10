@@ -8,15 +8,3 @@ spring:
     mongodb:
       auto-index-creation: true
       uri: "mongodb://leonardo:123456@testes-carga-mongodb:27017/testesCarga?authSource=admin"
-  jpa:
-    database: POSTGRESQL
-    show-sql: true
-    hibernate:
-      ddl-auto: update
-  datasource:
-    platform: postgres
-    url: jdbc:postgresql://testes-carga-postgres:5432/testesCarga
-    username: leonardo
-    password: 123456
-  database:
-    driverClassName: org.postgresql.Driver

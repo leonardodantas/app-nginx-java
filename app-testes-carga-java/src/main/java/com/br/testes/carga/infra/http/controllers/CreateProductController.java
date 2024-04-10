@@ -23,18 +23,10 @@ public class CreateProductController {
     @PostMapping("v1/create/product")
     @ResponseStatus(HttpStatus.CREATED)
     @Operation(summary = "Inserir um produto em uma base de dados do MongoDB")
-    public ProductResponse createV1(@Valid @RequestBody final ProductRequest request) {
+    public ProductResponse create(@Valid @RequestBody final ProductRequest request) {
         final var domain = productConverter.convert(request);
-        final var product = createProduct.createV1(domain);
+        final var product = createProduct.create(domain);
         return ProductResponse.from(product);
     }
 
-    @PostMapping("v2/create/product")
-    @ResponseStatus(HttpStatus.CREATED)
-    @Operation(summary = "Inserir um produto em uma base de dados do PostgresSQL")
-    public ProductResponse createV2(@Valid @RequestBody final ProductRequest request) {
-        final var domain = productConverter.convert(request);
-        final var product = createProduct.createV2(domain);
-        return ProductResponse.from(product);
-    }
 }

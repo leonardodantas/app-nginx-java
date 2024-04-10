@@ -12,13 +12,9 @@ import java.util.List;
 public class SearchProduct {
 
     private final IProductRepository productMongoDBRepository;
-    private final IProductRepository productPostgresSQLRepository;
 
-    public List<Product> findByCategoriesV1(final List<String> values) {
+    public List<Product> findByCategories(final List<String> values) {
         return productMongoDBRepository.findAllProductsByCategories(values);
     }
 
-    public List<Product> findByCategoriesV2(final List<String> values) {
-        return productPostgresSQLRepository.findAllProductsByCategories(values);
-    }
 }
