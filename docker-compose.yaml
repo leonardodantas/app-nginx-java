@@ -1,26 +1,5 @@
 version: '3'
 services:
-  testes-carga-postgres:
-    container_name: testes-carga-postgres
-    networks:
-      - rede-docker-compose
-    restart: always
-    image: postgres
-    environment:
-      DATABASE_HOST: "127.0.0.1"
-      POSTGRES_USER: "leonardo"
-      POSTGRES_DB: "testesCarga"
-      POSTGRES_PASSWORD: "123456"
-    ports:
-      - "5432:5432"
-    volumes:
-      - /private/var/lib/postgresql:/var/lib/postgresql
-#    network_mode: host
-    deploy:
-      resources:
-        limits:
-          cpus: '0.50'
-          memory: '0.75GB'
   testes-carga-mongodb:
     networks:
       - rede-docker-compose
