@@ -21,7 +21,6 @@ services:
     networks:
       - rede-docker-compose
     depends_on:
-      - testes-carga-postgres
       - testes-carga-mongodb
     build:
       ./app-testes-carga-java/
