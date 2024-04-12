@@ -35,7 +35,6 @@ public class ProductMongoDBRepository implements IProductRepository {
     }
 
     @Override
-    @Cacheable("productCache")
     public Product findById(final String productId) {
         return productMongoRepository.findById(productId)
                 .map(productDocumentConverter::convert)
@@ -63,6 +62,7 @@ public class ProductMongoDBRepository implements IProductRepository {
     }
 
     @Override
+    @Cacheable("productCache")
     public Optional<Product> findByCodeIgnoreCase(final String code) {
         return productMongoRepository.findByCodeIgnoreCase(code)
                 .map(productDocumentConverter::convert);

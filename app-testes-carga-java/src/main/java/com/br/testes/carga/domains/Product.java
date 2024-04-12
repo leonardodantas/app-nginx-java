@@ -5,6 +5,7 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.List;
 
@@ -12,7 +13,7 @@ import java.util.List;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Product {
+public class Product implements Serializable {
 
     private String id;
     private String name;
@@ -23,5 +24,12 @@ public class Product {
 
     public List<String> getCategoriesAsListString() {
         return categories.getValue().stream().map(String::toUpperCase).toList();
+    }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "code='" + code + '\'' +
+                '}';
     }
 }

@@ -35,11 +35,4 @@ public class ProductDocument {
         );
     }
 
-    @Override
-    public String toString() {
-        return "ProductDocument{" +
-                "id='" + id + '\'' +
-                ", code='" + code + '\'' +
-                '}';
-    }
 }

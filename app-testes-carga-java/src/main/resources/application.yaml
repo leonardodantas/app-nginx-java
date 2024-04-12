@@ -8,3 +8,8 @@ spring:
     mongodb:
       auto-index-creation: true
       uri: "mongodb://leonardo:123456@testes-carga-mongodb:27017/testesCarga?authSource=admin"
+  cache:
+    type: redis
+  redis:
+    host: testes-carga-redis
+    port: 6379
