@@ -17,23 +17,26 @@ services:
         limits:
           cpus: '0.50'
           memory: '0.75GB'
-  # testes-carga-java:
-  #   networks:
-  #     - rede-docker-compose
-  #   depends_on:
-  #     - testes-carga-mongodb
-  #   build:
-  #     ./app-testes-carga-java/
-  #   ports:
-  #     - "8081:8080"
-  #   restart: always
-  #   #    network_mode: host
-  #   deploy:
-  #     resources:
-  #       limits:
-  #         cpus: '0.50'
-  #         memory: '0.75GB'
+  testes-carga-java:
+    networks:
+      - rede-docker-compose
+    depends_on:
+      - testes-carga-mongodb
+      - testes-carga-redis
+    build:
+      ./app-testes-carga-java/
+    ports:
+      - "8081:8080"
+    restart: always
+    #    network_mode: host
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
+          memory: '0.75GB'
   testes-carga-redis:
+    networks:
+      - rede-docker-compose
     image: redis
     ports:
       - "6379:6379"

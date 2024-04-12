@@ -3,6 +3,7 @@ package com.br.testes.carga.app.usecases;
 import com.br.testes.carga.app.repositories.IProductRepository;
 import com.br.testes.carga.domains.DatabaseInfo;
 import lombok.RequiredArgsConstructor;
+import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -18,6 +19,7 @@ public class ConfigProduct {
         return DatabaseInfo.of(MONGODB, mongoQuantity);
     }
 
+    @CacheEvict("productCache")
     public void resetDatabases() {
         productMongoDBRepository.deleteAll();
     }
