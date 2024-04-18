@@ -1,5 +1,16 @@
 version: '3'
 services:
+  loadbalance:
+    build:
+      context: nginx
+      dockerfile: ./Dockerfile
+    ports:
+      - "80:80"
+    networks:
+      - rede-docker-compose
+    depends_on:
+      - testes-carga-java-1
+      - testes-carga-java-2
   testes-carga-mongodb:
     networks:
       - rede-docker-compose
@@ -11,40 +22,41 @@ services:
       - MONGO_INITDB_ROOT_PASSWORD=123456
     volumes:
       - /private/var/lib/mongodb:/var/lib/mongodb
-#    network_mode: host
     deploy:
       resources:
         limits:
           cpus: '0.50'
           memory: '0.75GB'
-  testes-carga-java:
+  testes-carga-java-1:
     networks:
       - rede-docker-compose
     depends_on:
       - testes-carga-mongodb
-      - testes-carga-redis
     build:
       ./app-testes-carga-java/
     ports:
       - "8081:8080"
     restart: always
-    #    network_mode: host
     deploy:
       resources:
         limits:
           cpus: '0.50'
           memory: '0.75GB'
-  testes-carga-redis:
+  testes-carga-java-2:
     networks:
       - rede-docker-compose
-    image: redis
+    depends_on:
+      - testes-carga-mongodb
+    build:
+      ./app-testes-carga-java/
     ports:
-      - "6379:6379"
+      - "8082:8080"
+    restart: always
     deploy:
       resources:
         limits:
-          cpus: '0.25'
-          memory: '0.37GB'
+          cpus: '0.50'
+          memory: '0.75GB'
 networks:
   rede-docker-compose:
     driver: bridge

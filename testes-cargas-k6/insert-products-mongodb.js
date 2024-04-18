@@ -16,7 +16,7 @@ let errorRate = new Rate('errors');
 let responseTimeTrend = new Trend('response_time');
 
 export function handleSummary(data) {
-    const reportName = `./relatorios/mongo/insert-products-mongo.html`;
+    const reportName = `./relatorios/insert-products-mongo.html`;
     return {
         [reportName]: htmlReport(data),
     };
@@ -45,7 +45,7 @@ export default function () {
         };
 
         let startTime = new Date().getTime();
-        let response = http.post('http://localhost:8081/v1/create/product', JSON.stringify(product), params);
+        let response = http.post('http://localhost/v1/create/product', JSON.stringify(product), params);
         let endTime = new Date().getTime();
         let responseTime = endTime - startTime;
 
