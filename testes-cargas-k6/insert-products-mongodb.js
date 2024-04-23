@@ -28,7 +28,7 @@ export const options = {
         executor: 'shared-iterations',
         vus: 612,
         iterations: products.length,
-        maxDuration: '10s',
+        maxDuration: '20s',
       },
     },
   };
